@@ -9,6 +9,9 @@ import type { BetterAuthSessionResult } from "../auth/better-auth.js";
 import { logger } from "./logger.js";
 import { boardAuthService } from "../services/board-auth.js";
 
+// Simple auth session store (shared with simple-auth.ts)
+export const simpleSessions = new Map<string, { createdAt: number }>();
+
 function hashToken(token: string) {
   return createHash("sha256").update(token).digest("hex");
 }
@@ -80,6 +83,24 @@ export function actorMiddleware(db: Db, opts: ActorMiddlewareOptions): RequestHa
     if (!token) {
       next();
       return;
+    }
+
+    // Check for simple auth token
+    if (token.startsWith("simple:")) {
+      const session = simpleSessions.get(token);
+      if (session && Date.now() - session.createdAt < 24 * 60 * 60 * 1000) {
+        req.actor = {
+          type: "board",
+          userId: "admin",
+          isInstanceAdmin: true,
+          runId: runIdHeader ?? undefined,
+          source: "simple_auth",
+        };
+        next();
+        return;
+      }
+      // Session expired or invalid
+      simpleSessions.delete(token);
     }
 
     const boardKey = await boardAuth.findBoardApiKeyByToken(token);

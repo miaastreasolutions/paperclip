@@ -28,6 +28,7 @@ import { instanceSettingsRoutes } from "./routes/instance-settings.js";
 import { llmRoutes } from "./routes/llms.js";
 import { assetRoutes } from "./routes/assets.js";
 import { accessRoutes } from "./routes/access.js";
+import { simpleAuthRoutes } from "./routes/simple-auth.js";
 import { pluginRoutes } from "./routes/plugins.js";
 import { pluginUiStaticRoutes } from "./routes/plugin-ui-static.js";
 import { applyUiBranding } from "./ui-branding.js";
@@ -125,6 +126,10 @@ export async function createApp(
   if (opts.betterAuthHandler) {
     app.all("/api/auth/*authPath", opts.betterAuthHandler);
   }
+  
+  // Simple password-only auth (when ADMIN_PASSWORD is set)
+  app.use("/api/simple-auth", simpleAuthRoutes(db));
+  
   app.use(llmRoutes(db));
 
   // Mount API routes

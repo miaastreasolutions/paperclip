@@ -74,6 +74,9 @@ export function healthRoutes(
       });
     }
 
+    // Check if simple auth is enabled
+    const simpleAuthEnabled = !!process.env.ADMIN_PASSWORD;
+
     res.json({
       status: "ok",
       version: serverVersion,
@@ -82,6 +85,7 @@ export function healthRoutes(
       authReady: opts.authReady,
       bootstrapStatus,
       bootstrapInviteActive,
+      simpleAuthEnabled,
       features: {
         companyDeletionEnabled: opts.companyDeletionEnabled,
       },
