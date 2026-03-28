@@ -30,21 +30,25 @@ function loadEnvFile(filePath) {
 
 const envVars = loadEnvFile(path.join(__dirname, '.env'));
 
+// Garante que HOST seja 0.0.0.0
+envVars.HOST = '0.0.0.0';
+
+console.log('PM2 Config - HOST:', envVars.HOST);
+console.log('PM2 Config - PORT:', envVars.PORT);
+
 module.exports = {
   apps: [
     {
       name: 'paperclip-web',
-      script: './server/dist/index.js',
+      script: './start.sh',
       cwd: '/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip',
+      exec_mode: 'fork',
       instances: 1,
       autorestart: true,
       watch: false,
       max_memory_restart: '1G',
       env: {
         NODE_ENV: 'production',
-        PORT: 3100,
-        HOST: '0.0.0.0',
-        ...envVars,
       },
       error_file: './logs/err.log',
       out_file: './logs/out.log',
@@ -55,6 +59,7 @@ module.exports = {
       name: 'paperclip-worker',
       script: './server/dist/worker.js',
       cwd: '/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip',
+      exec_mode: 'fork',
       instances: 1,
       autorestart: true,
       watch: false,
@@ -64,6 +69,7 @@ module.exports = {
         WORKER_TYPE: 'background',
         ...envVars,
       },
+      env_file: '/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/.env',
       error_file: './logs/worker-err.log',
       out_file: './logs/worker-out.log',
       log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
