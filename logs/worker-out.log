@@ -12,3 +12,401 @@
 2026-03-28 04:50:16 -03:00:   code: 'ERR_MODULE_NOT_FOUND',
 2026-03-28 04:50:16 -03:00:   url: 'file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/client.js'
 2026-03-28 04:50:16 -03:00: }
+2026-03-28 04:54:42 -03:00: Error: Cannot find module '/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/client.js' imported from /Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/index.ts
+2026-03-28 04:54:42 -03:00:     at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+2026-03-28 04:54:42 -03:00:     at moduleResolve (node:internal/modules/esm/resolve:861:10)
+2026-03-28 04:54:42 -03:00:     at defaultResolve (node:internal/modules/esm/resolve:988:11)
+2026-03-28 04:54:42 -03:00:     at ModuleLoader.#cachedDefaultResolve (node:internal/modules/esm/loader:697:20)
+2026-03-28 04:54:42 -03:00:     at ModuleLoader.#resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:714:38)
+2026-03-28 04:54:42 -03:00:     at ModuleLoader.resolveSync (node:internal/modules/esm/loader:746:52)
+2026-03-28 04:54:42 -03:00:     at ModuleLoader.#resolve (node:internal/modules/esm/loader:679:17)
+2026-03-28 04:54:42 -03:00:     at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:599:35)
+2026-03-28 04:54:42 -03:00:     at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33)
+2026-03-28 04:54:42 -03:00:     at ModuleJob.link (node:internal/modules/esm/module_job:245:17) {
+2026-03-28 04:54:42 -03:00:   code: 'ERR_MODULE_NOT_FOUND',
+2026-03-28 04:54:42 -03:00:   url: 'file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/client.js'
+2026-03-28 04:54:42 -03:00: }
+2026-03-28 04:55:30 -03:00: Error: Cannot find module '/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/client.js' imported from /Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/index.ts
+2026-03-28 04:55:30 -03:00:     at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+2026-03-28 04:55:30 -03:00:     at moduleResolve (node:internal/modules/esm/resolve:861:10)
+2026-03-28 04:55:30 -03:00:     at defaultResolve (node:internal/modules/esm/resolve:988:11)
+2026-03-28 04:55:30 -03:00:     at ModuleLoader.#cachedDefaultResolve (node:internal/modules/esm/loader:697:20)
+2026-03-28 04:55:30 -03:00:     at ModuleLoader.#resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:714:38)
+2026-03-28 04:55:30 -03:00:     at ModuleLoader.resolveSync (node:internal/modules/esm/loader:746:52)
+2026-03-28 04:55:30 -03:00:     at ModuleLoader.#resolve (node:internal/modules/esm/loader:679:17)
+2026-03-28 04:55:30 -03:00:     at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:599:35)
+2026-03-28 04:55:30 -03:00:     at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33)
+2026-03-28 04:55:30 -03:00:     at ModuleJob.link (node:internal/modules/esm/module_job:245:17) {
+2026-03-28 04:55:30 -03:00:   code: 'ERR_MODULE_NOT_FOUND',
+2026-03-28 04:55:30 -03:00:   url: 'file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/client.js'
+2026-03-28 04:55:30 -03:00: }
+2026-03-28 04:59:49 -03:00: Error: Cannot find module '/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/adapter-utils/src/session-compaction.js' imported from /Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/adapter-utils/src/index.ts
+2026-03-28 04:59:49 -03:00:     at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+2026-03-28 04:59:49 -03:00:     at moduleResolve (node:internal/modules/esm/resolve:861:10)
+2026-03-28 04:59:49 -03:00:     at defaultResolve (node:internal/modules/esm/resolve:988:11)
+2026-03-28 04:59:49 -03:00:     at ModuleLoader.#cachedDefaultResolve (node:internal/modules/esm/loader:697:20)
+2026-03-28 04:59:49 -03:00:     at ModuleLoader.#resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:714:38)
+2026-03-28 04:59:49 -03:00:     at ModuleLoader.resolveSync (node:internal/modules/esm/loader:746:52)
+2026-03-28 04:59:49 -03:00:     at ModuleLoader.#resolve (node:internal/modules/esm/loader:679:17)
+2026-03-28 04:59:49 -03:00:     at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:599:35)
+2026-03-28 04:59:49 -03:00:     at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33)
+2026-03-28 04:59:49 -03:00:     at ModuleJob.link (node:internal/modules/esm/module_job:245:17) {
+2026-03-28 04:59:49 -03:00:   code: 'ERR_MODULE_NOT_FOUND',
+2026-03-28 04:59:49 -03:00:   url: 'file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/adapter-utils/src/session-compaction.js'
+2026-03-28 04:59:49 -03:00: }
+2026-03-28 05:02:11 -03:00: [08:02:11] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:02:11 -03:00: [08:02:11] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:02:11 -03:00: [08:02:11] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:02:11 -03:00: [08:02:11] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:02:14 -03:00: [08:02:13] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:02:14 -03:00:     error: {
+2026-03-28 05:02:14 -03:00:       "name": "PostgresError",
+2026-03-28 05:02:14 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:02:14 -03:00:       "severity": "ERROR",
+2026-03-28 05:02:14 -03:00:       "code": "42P01",
+2026-03-28 05:02:14 -03:00:       "position": "309",
+2026-03-28 05:02:14 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:02:14 -03:00:       "line": "1449",
+2026-03-28 05:02:14 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:02:14 -03:00:     }
+2026-03-28 05:02:14 -03:00: [08:02:13] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:02:14 -03:00:     error: {
+2026-03-28 05:02:14 -03:00:       "name": "PostgresError",
+2026-03-28 05:02:14 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:02:14 -03:00:       "severity": "ERROR",
+2026-03-28 05:02:14 -03:00:       "code": "42P01",
+2026-03-28 05:02:14 -03:00:       "position": "309",
+2026-03-28 05:02:14 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:02:14 -03:00:       "line": "1449",
+2026-03-28 05:02:14 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:02:14 -03:00:     }
+2026-03-28 05:02:14 -03:00: [08:02:13] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:02:14 -03:00: [08:02:13] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:02:44 -03:00: [08:02:43] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:02:44 -03:00:     error: {
+2026-03-28 05:02:44 -03:00:       "name": "PostgresError",
+2026-03-28 05:02:44 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:02:44 -03:00:       "severity": "ERROR",
+2026-03-28 05:02:44 -03:00:       "code": "42P01",
+2026-03-28 05:02:44 -03:00:       "position": "309",
+2026-03-28 05:02:44 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:02:44 -03:00:       "line": "1449",
+2026-03-28 05:02:44 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:02:44 -03:00:     }
+2026-03-28 05:02:44 -03:00: [08:02:43] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:02:44 -03:00:     error: {
+2026-03-28 05:02:44 -03:00:       "name": "PostgresError",
+2026-03-28 05:02:44 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:02:44 -03:00:       "severity": "ERROR",
+2026-03-28 05:02:44 -03:00:       "code": "42P01",
+2026-03-28 05:02:44 -03:00:       "position": "309",
+2026-03-28 05:02:44 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:02:44 -03:00:       "line": "1449",
+2026-03-28 05:02:44 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:02:44 -03:00:     }
+2026-03-28 05:02:51 -03:00: [08:02:50] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m
+2026-03-28 05:02:51 -03:00: [08:02:50] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m
+2026-03-28 05:03:18 -03:00: [08:03:18] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:03:18 -03:00: [08:03:18] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:03:18 -03:00: [08:03:18] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:03:18 -03:00: [08:03:18] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:03:20 -03:00: [08:03:20] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:03:20 -03:00:     error: {
+2026-03-28 05:03:20 -03:00:       "name": "PostgresError",
+2026-03-28 05:03:20 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:03:20 -03:00:       "severity": "ERROR",
+2026-03-28 05:03:20 -03:00:       "code": "42P01",
+2026-03-28 05:03:20 -03:00:       "position": "309",
+2026-03-28 05:03:20 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:03:20 -03:00:       "line": "1449",
+2026-03-28 05:03:20 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:03:20 -03:00:     }
+2026-03-28 05:03:20 -03:00: [08:03:20] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:03:20 -03:00:     error: {
+2026-03-28 05:03:20 -03:00:       "name": "PostgresError",
+2026-03-28 05:03:20 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:03:20 -03:00:       "severity": "ERROR",
+2026-03-28 05:03:20 -03:00:       "code": "42P01",
+2026-03-28 05:03:20 -03:00:       "position": "309",
+2026-03-28 05:03:20 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:03:20 -03:00:       "line": "1449",
+2026-03-28 05:03:20 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:03:20 -03:00:     }
+2026-03-28 05:03:20 -03:00: [08:03:20] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:03:20 -03:00: [08:03:20] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:03:50 -03:00: [08:03:50] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:03:50 -03:00:     error: {
+2026-03-28 05:03:50 -03:00:       "name": "PostgresError",
+2026-03-28 05:03:50 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:03:50 -03:00:       "severity": "ERROR",
+2026-03-28 05:03:50 -03:00:       "code": "42P01",
+2026-03-28 05:03:50 -03:00:       "position": "309",
+2026-03-28 05:03:50 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:03:50 -03:00:       "line": "1449",
+2026-03-28 05:03:50 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:03:50 -03:00:     }
+2026-03-28 05:03:50 -03:00: [08:03:50] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:03:50 -03:00:     error: {
+2026-03-28 05:03:50 -03:00:       "name": "PostgresError",
+2026-03-28 05:03:50 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:03:50 -03:00:       "severity": "ERROR",
+2026-03-28 05:03:50 -03:00:       "code": "42P01",
+2026-03-28 05:03:50 -03:00:       "position": "309",
+2026-03-28 05:03:50 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:03:50 -03:00:       "line": "1449",
+2026-03-28 05:03:50 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:03:50 -03:00:     }
+2026-03-28 05:03:55 -03:00: [08:03:54] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m
+2026-03-28 05:03:55 -03:00: [08:03:54] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m
+2026-03-28 05:03:55 -03:00: [08:03:55] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:03:55 -03:00: [08:03:55] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:03:55 -03:00: [08:03:55] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:03:55 -03:00: [08:03:55] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:03:57 -03:00: [08:03:57] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:03:57 -03:00:     error: {
+2026-03-28 05:03:57 -03:00:       "name": "PostgresError",
+2026-03-28 05:03:57 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:03:57 -03:00:       "severity": "ERROR",
+2026-03-28 05:03:57 -03:00:       "code": "42P01",
+2026-03-28 05:03:57 -03:00:       "position": "309",
+2026-03-28 05:03:57 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:03:57 -03:00:       "line": "1449",
+2026-03-28 05:03:57 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:03:57 -03:00:     }
+2026-03-28 05:03:57 -03:00: [08:03:57] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:03:57 -03:00:     error: {
+2026-03-28 05:03:57 -03:00:       "name": "PostgresError",
+2026-03-28 05:03:57 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:03:57 -03:00:       "severity": "ERROR",
+2026-03-28 05:03:57 -03:00:       "code": "42P01",
+2026-03-28 05:03:57 -03:00:       "position": "309",
+2026-03-28 05:03:57 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:03:57 -03:00:       "line": "1449",
+2026-03-28 05:03:57 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:03:57 -03:00:     }
+2026-03-28 05:03:57 -03:00: [08:03:57] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:03:57 -03:00: [08:03:57] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:04:27 -03:00: [08:04:27] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:04:27 -03:00:     error: {
+2026-03-28 05:04:27 -03:00:       "name": "PostgresError",
+2026-03-28 05:04:27 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:04:27 -03:00:       "severity": "ERROR",
+2026-03-28 05:04:27 -03:00:       "code": "42P01",
+2026-03-28 05:04:27 -03:00:       "position": "309",
+2026-03-28 05:04:27 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:04:27 -03:00:       "line": "1449",
+2026-03-28 05:04:27 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:04:27 -03:00:     }
+2026-03-28 05:04:27 -03:00: [08:04:27] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:04:27 -03:00:     error: {
+2026-03-28 05:04:27 -03:00:       "name": "PostgresError",
+2026-03-28 05:04:27 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:04:27 -03:00:       "severity": "ERROR",
+2026-03-28 05:04:27 -03:00:       "code": "42P01",
+2026-03-28 05:04:27 -03:00:       "position": "309",
+2026-03-28 05:04:27 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:04:27 -03:00:       "line": "1449",
+2026-03-28 05:04:27 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:04:27 -03:00:     }
+2026-03-28 05:04:57 -03:00: [08:04:57] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:04:57 -03:00:     error: {
+2026-03-28 05:04:57 -03:00:       "name": "PostgresError",
+2026-03-28 05:04:57 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:04:57 -03:00:       "severity": "ERROR",
+2026-03-28 05:04:57 -03:00:       "code": "42P01",
+2026-03-28 05:04:57 -03:00:       "position": "309",
+2026-03-28 05:04:57 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:04:57 -03:00:       "line": "1449",
+2026-03-28 05:04:57 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:04:57 -03:00:     }
+2026-03-28 05:04:57 -03:00: [08:04:57] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:04:57 -03:00:     error: {
+2026-03-28 05:04:57 -03:00:       "name": "PostgresError",
+2026-03-28 05:04:57 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:04:57 -03:00:       "severity": "ERROR",
+2026-03-28 05:04:57 -03:00:       "code": "42P01",
+2026-03-28 05:04:57 -03:00:       "position": "309",
+2026-03-28 05:04:57 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:04:57 -03:00:       "line": "1449",
+2026-03-28 05:04:57 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:04:57 -03:00:     }
+2026-03-28 05:05:04 -03:00: [08:05:04] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m
+2026-03-28 05:05:04 -03:00: [08:05:04] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m
+2026-03-28 05:05:05 -03:00: [08:05:05] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:05:05 -03:00: [08:05:05] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:05:05 -03:00: [08:05:05] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:05:05 -03:00: [08:05:05] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:05:07 -03:00: [08:05:07] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:05:07 -03:00:     error: {
+2026-03-28 05:05:07 -03:00:       "name": "PostgresError",
+2026-03-28 05:05:07 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:05:07 -03:00:       "severity": "ERROR",
+2026-03-28 05:05:07 -03:00:       "code": "42P01",
+2026-03-28 05:05:07 -03:00:       "position": "309",
+2026-03-28 05:05:07 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:05:07 -03:00:       "line": "1449",
+2026-03-28 05:05:07 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:05:07 -03:00:     }
+2026-03-28 05:05:07 -03:00: [08:05:07] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:05:07 -03:00:     error: {
+2026-03-28 05:05:07 -03:00:       "name": "PostgresError",
+2026-03-28 05:05:07 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:05:07 -03:00:       "severity": "ERROR",
+2026-03-28 05:05:07 -03:00:       "code": "42P01",
+2026-03-28 05:05:07 -03:00:       "position": "309",
+2026-03-28 05:05:07 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:05:07 -03:00:       "line": "1449",
+2026-03-28 05:05:07 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:05:07 -03:00:     }
+2026-03-28 05:05:07 -03:00: [08:05:07] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:05:07 -03:00: [08:05:07] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:05:37 -03:00: [08:05:37] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:05:37 -03:00:     error: {
+2026-03-28 05:05:37 -03:00:       "name": "PostgresError",
+2026-03-28 05:05:37 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:05:37 -03:00:       "severity": "ERROR",
+2026-03-28 05:05:37 -03:00:       "code": "42P01",
+2026-03-28 05:05:37 -03:00:       "position": "309",
+2026-03-28 05:05:37 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:05:37 -03:00:       "line": "1449",
+2026-03-28 05:05:37 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:05:37 -03:00:     }
+2026-03-28 05:05:37 -03:00: [08:05:37] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:05:37 -03:00:     error: {
+2026-03-28 05:05:37 -03:00:       "name": "PostgresError",
+2026-03-28 05:05:37 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:05:37 -03:00:       "severity": "ERROR",
+2026-03-28 05:05:37 -03:00:       "code": "42P01",
+2026-03-28 05:05:37 -03:00:       "position": "309",
+2026-03-28 05:05:37 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:05:37 -03:00:       "line": "1449",
+2026-03-28 05:05:37 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:05:37 -03:00:     }
+2026-03-28 05:05:51 -03:00: [08:05:50] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m
+2026-03-28 05:05:51 -03:00: [08:05:50] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m
+2026-03-28 05:05:52 -03:00: [08:05:52] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:05:52 -03:00: [08:05:52] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:05:52 -03:00: [08:05:52] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:05:52 -03:00: [08:05:52] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:05:54 -03:00: [08:05:53] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:05:54 -03:00:     error: {
+2026-03-28 05:05:54 -03:00:       "name": "PostgresError",
+2026-03-28 05:05:54 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:05:54 -03:00:       "severity": "ERROR",
+2026-03-28 05:05:54 -03:00:       "code": "42P01",
+2026-03-28 05:05:54 -03:00:       "position": "309",
+2026-03-28 05:05:54 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:05:54 -03:00:       "line": "1449",
+2026-03-28 05:05:54 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:05:54 -03:00:     }
+2026-03-28 05:05:54 -03:00: [08:05:53] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:05:54 -03:00:     error: {
+2026-03-28 05:05:54 -03:00:       "name": "PostgresError",
+2026-03-28 05:05:54 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:05:54 -03:00:       "severity": "ERROR",
+2026-03-28 05:05:54 -03:00:       "code": "42P01",
+2026-03-28 05:05:54 -03:00:       "position": "309",
+2026-03-28 05:05:54 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:05:54 -03:00:       "line": "1449",
+2026-03-28 05:05:54 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:05:54 -03:00:     }
+2026-03-28 05:05:54 -03:00: [08:05:53] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:05:54 -03:00: [08:05:53] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:06:24 -03:00: [08:06:23] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:06:24 -03:00:     error: {
+2026-03-28 05:06:24 -03:00:       "name": "PostgresError",
+2026-03-28 05:06:24 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:06:24 -03:00:       "severity": "ERROR",
+2026-03-28 05:06:24 -03:00:       "code": "42P01",
+2026-03-28 05:06:24 -03:00:       "position": "309",
+2026-03-28 05:06:24 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:06:24 -03:00:       "line": "1449",
+2026-03-28 05:06:24 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:06:24 -03:00:     }
+2026-03-28 05:06:24 -03:00: [08:06:23] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:06:24 -03:00:     error: {
+2026-03-28 05:06:24 -03:00:       "name": "PostgresError",
+2026-03-28 05:06:24 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:06:24 -03:00:       "severity": "ERROR",
+2026-03-28 05:06:24 -03:00:       "code": "42P01",
+2026-03-28 05:06:24 -03:00:       "position": "309",
+2026-03-28 05:06:24 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:06:24 -03:00:       "line": "1449",
+2026-03-28 05:06:24 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:06:24 -03:00:     }
+2026-03-28 05:06:54 -03:00: [08:06:53] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:06:54 -03:00:     error: {
+2026-03-28 05:06:54 -03:00:       "name": "PostgresError",
+2026-03-28 05:06:54 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:06:54 -03:00:       "severity": "ERROR",
+2026-03-28 05:06:54 -03:00:       "code": "42P01",
+2026-03-28 05:06:54 -03:00:       "position": "309",
+2026-03-28 05:06:54 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:06:54 -03:00:       "line": "1449",
+2026-03-28 05:06:54 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:06:54 -03:00:     }
+2026-03-28 05:06:54 -03:00: [08:06:53] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:06:54 -03:00:     error: {
+2026-03-28 05:06:54 -03:00:       "name": "PostgresError",
+2026-03-28 05:06:54 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:06:54 -03:00:       "severity": "ERROR",
+2026-03-28 05:06:54 -03:00:       "code": "42P01",
+2026-03-28 05:06:54 -03:00:       "position": "309",
+2026-03-28 05:06:54 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:06:54 -03:00:       "line": "1449",
+2026-03-28 05:06:54 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:06:54 -03:00:     }
+2026-03-28 05:06:55 -03:00: [08:06:55] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m
+2026-03-28 05:06:55 -03:00: [08:06:55] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m
+2026-03-28 05:06:56 -03:00: [08:06:56] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:06:56 -03:00: [08:06:56] [32mINFO[39m: [36m🚀 Starting Paperclip background worker...[39m
+2026-03-28 05:06:56 -03:00: [08:06:56] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:06:56 -03:00: [08:06:56] [32mINFO[39m: [36m✅ Worker initialized and ready[39m
+2026-03-28 05:06:58 -03:00: [08:06:57] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:06:58 -03:00:     error: {
+2026-03-28 05:06:58 -03:00:       "name": "PostgresError",
+2026-03-28 05:06:58 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:06:58 -03:00:       "severity": "ERROR",
+2026-03-28 05:06:58 -03:00:       "code": "42P01",
+2026-03-28 05:06:58 -03:00:       "position": "309",
+2026-03-28 05:06:58 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:06:58 -03:00:       "line": "1449",
+2026-03-28 05:06:58 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:06:58 -03:00:     }
+2026-03-28 05:06:58 -03:00: [08:06:57] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:06:58 -03:00:     error: {
+2026-03-28 05:06:58 -03:00:       "name": "PostgresError",
+2026-03-28 05:06:58 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:06:58 -03:00:       "severity": "ERROR",
+2026-03-28 05:06:58 -03:00:       "code": "42P01",
+2026-03-28 05:06:58 -03:00:       "position": "309",
+2026-03-28 05:06:58 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:06:58 -03:00:       "line": "1449",
+2026-03-28 05:06:58 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:06:58 -03:00:     }
+2026-03-28 05:06:58 -03:00: [08:06:57] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:06:58 -03:00: [08:06:57] [32mINFO[39m: [36m⏱️  Worker running every 30000ms[39m
+2026-03-28 05:07:28 -03:00: [08:07:28] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:07:28 -03:00:     error: {
+2026-03-28 05:07:28 -03:00:       "name": "PostgresError",
+2026-03-28 05:07:28 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:07:28 -03:00:       "severity": "ERROR",
+2026-03-28 05:07:28 -03:00:       "code": "42P01",
+2026-03-28 05:07:28 -03:00:       "position": "309",
+2026-03-28 05:07:28 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:07:28 -03:00:       "line": "1449",
+2026-03-28 05:07:28 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:07:28 -03:00:     }
+2026-03-28 05:07:28 -03:00: [08:07:28] [31mERROR[39m: [36mWorker loop error[39m 
+2026-03-28 05:07:28 -03:00:     error: {
+2026-03-28 05:07:28 -03:00:       "name": "PostgresError",
+2026-03-28 05:07:28 -03:00:       "severity_local": "ERROR",
+2026-03-28 05:07:28 -03:00:       "severity": "ERROR",
+2026-03-28 05:07:28 -03:00:       "code": "42P01",
+2026-03-28 05:07:28 -03:00:       "position": "309",
+2026-03-28 05:07:28 -03:00:       "file": "parse_relation.c",
+2026-03-28 05:07:28 -03:00:       "line": "1449",
+2026-03-28 05:07:28 -03:00:       "routine": "parserOpenTable"
+2026-03-28 05:07:28 -03:00:     }
+2026-03-28 05:07:37 -03:00: [08:07:36] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m
+2026-03-28 05:07:37 -03:00: [08:07:36] [32mINFO[39m: [36m🛑 Worker received SIGINT, shutting down gracefully...[39m

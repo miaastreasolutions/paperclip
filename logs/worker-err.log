@@ -12,3 +12,45 @@
 2026-03-28 04:50:16 -03:00:   code: 'ERR_MODULE_NOT_FOUND',
 2026-03-28 04:50:16 -03:00:   url: 'file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/client.js'
 2026-03-28 04:50:16 -03:00: }
+2026-03-28 04:54:42 -03:00: Error: Cannot find module '/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/client.js' imported from /Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/index.ts
+2026-03-28 04:54:42 -03:00:     at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+2026-03-28 04:54:42 -03:00:     at moduleResolve (node:internal/modules/esm/resolve:861:10)
+2026-03-28 04:54:42 -03:00:     at defaultResolve (node:internal/modules/esm/resolve:988:11)
+2026-03-28 04:54:42 -03:00:     at ModuleLoader.#cachedDefaultResolve (node:internal/modules/esm/loader:697:20)
+2026-03-28 04:54:42 -03:00:     at ModuleLoader.#resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:714:38)
+2026-03-28 04:54:42 -03:00:     at ModuleLoader.resolveSync (node:internal/modules/esm/loader:746:52)
+2026-03-28 04:54:42 -03:00:     at ModuleLoader.#resolve (node:internal/modules/esm/loader:679:17)
+2026-03-28 04:54:42 -03:00:     at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:599:35)
+2026-03-28 04:54:42 -03:00:     at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33)
+2026-03-28 04:54:42 -03:00:     at ModuleJob.link (node:internal/modules/esm/module_job:245:17) {
+2026-03-28 04:54:42 -03:00:   code: 'ERR_MODULE_NOT_FOUND',
+2026-03-28 04:54:42 -03:00:   url: 'file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/client.js'
+2026-03-28 04:54:42 -03:00: }
+2026-03-28 04:55:30 -03:00: Error: Cannot find module '/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/client.js' imported from /Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/index.ts
+2026-03-28 04:55:30 -03:00:     at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+2026-03-28 04:55:30 -03:00:     at moduleResolve (node:internal/modules/esm/resolve:861:10)
+2026-03-28 04:55:30 -03:00:     at defaultResolve (node:internal/modules/esm/resolve:988:11)
+2026-03-28 04:55:30 -03:00:     at ModuleLoader.#cachedDefaultResolve (node:internal/modules/esm/loader:697:20)
+2026-03-28 04:55:30 -03:00:     at ModuleLoader.#resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:714:38)
+2026-03-28 04:55:30 -03:00:     at ModuleLoader.resolveSync (node:internal/modules/esm/loader:746:52)
+2026-03-28 04:55:30 -03:00:     at ModuleLoader.#resolve (node:internal/modules/esm/loader:679:17)
+2026-03-28 04:55:30 -03:00:     at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:599:35)
+2026-03-28 04:55:30 -03:00:     at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33)
+2026-03-28 04:55:30 -03:00:     at ModuleJob.link (node:internal/modules/esm/module_job:245:17) {
+2026-03-28 04:55:30 -03:00:   code: 'ERR_MODULE_NOT_FOUND',
+2026-03-28 04:55:30 -03:00:   url: 'file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/db/src/client.js'
+2026-03-28 04:55:30 -03:00: }
+2026-03-28 04:59:49 -03:00: Error: Cannot find module '/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/adapter-utils/src/session-compaction.js' imported from /Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/adapter-utils/src/index.ts
+2026-03-28 04:59:49 -03:00:     at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+2026-03-28 04:59:49 -03:00:     at moduleResolve (node:internal/modules/esm/resolve:861:10)
+2026-03-28 04:59:49 -03:00:     at defaultResolve (node:internal/modules/esm/resolve:988:11)
+2026-03-28 04:59:49 -03:00:     at ModuleLoader.#cachedDefaultResolve (node:internal/modules/esm/loader:697:20)
+2026-03-28 04:59:49 -03:00:     at ModuleLoader.#resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:714:38)
+2026-03-28 04:59:49 -03:00:     at ModuleLoader.resolveSync (node:internal/modules/esm/loader:746:52)
+2026-03-28 04:59:49 -03:00:     at ModuleLoader.#resolve (node:internal/modules/esm/loader:679:17)
+2026-03-28 04:59:49 -03:00:     at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:599:35)
+2026-03-28 04:59:49 -03:00:     at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33)
+2026-03-28 04:59:49 -03:00:     at ModuleJob.link (node:internal/modules/esm/module_job:245:17) {
+2026-03-28 04:59:49 -03:00:   code: 'ERR_MODULE_NOT_FOUND',
+2026-03-28 04:59:49 -03:00:   url: 'file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/adapter-utils/src/session-compaction.js'
+2026-03-28 04:59:49 -03:00: }
