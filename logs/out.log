@@ -1,0 +1,311 @@
+2026-03-28 20:50:45 -03:00: [23:50:44] [32mINFO[39m: [36mApplying 36 pending migrations for PostgreSQL[39m [90m{"pendingMigrations":["0010_stale_justin_hammer.sql","0011_windy_corsair.sql","0012_perpetual_ser_duncan.sql","0013_dashing_wasp.sql","0014_many_mikhail_rasputin.sql","0015_project_color_archived.sql","0016_agent_icon.sql","0017_tiresome_gabe_jones.sql","0018_flat_sleepwalker.sql","0019_public_victor_mancha.sql","0020_white_anita_blake.sql","0021_chief_vindicator.sql","0022_company_brand_color.sql","0023_fair_lethal_legion.sql","0024_far_beast.sql","0025_nasty_salo.sql","0026_lying_pete_wisdom.sql","0027_tranquil_tenebrous.sql","0028_harsh_goliath.sql","0029_plugin_tables.sql","0030_rich_magneto.sql","0031_zippy_magma.sql","0032_pretty_doctor_octopus.sql","0033_shiny_black_tarantula.sql","0034_fat_dormammu.sql","0035_marvelous_satana.sql","0036_cheerful_nitro.sql","0037_friendly_eddie_brock.sql","0038_careless_iron_monger.sql","0039_fat_magneto.sql","0040_eager_shotgun.sql","0041_curly_maria_hill.sql","0042_spotty_the_renegades.sql","0043_reflective_captain_universe.sql","0044_illegal_toad.sql","0045_workable_shockwave.sql"]}[39m
+2026-03-28 20:51:13 -03:00: [23:51:13] [32mINFO[39m: [36mApplying 36 pending migrations for PostgreSQL[39m [90m{"pendingMigrations":["0010_stale_justin_hammer.sql","0011_windy_corsair.sql","0012_perpetual_ser_duncan.sql","0013_dashing_wasp.sql","0014_many_mikhail_rasputin.sql","0015_project_color_archived.sql","0016_agent_icon.sql","0017_tiresome_gabe_jones.sql","0018_flat_sleepwalker.sql","0019_public_victor_mancha.sql","0020_white_anita_blake.sql","0021_chief_vindicator.sql","0022_company_brand_color.sql","0023_fair_lethal_legion.sql","0024_far_beast.sql","0025_nasty_salo.sql","0026_lying_pete_wisdom.sql","0027_tranquil_tenebrous.sql","0028_harsh_goliath.sql","0029_plugin_tables.sql","0030_rich_magneto.sql","0031_zippy_magma.sql","0032_pretty_doctor_octopus.sql","0033_shiny_black_tarantula.sql","0034_fat_dormammu.sql","0035_marvelous_satana.sql","0036_cheerful_nitro.sql","0037_friendly_eddie_brock.sql","0038_careless_iron_monger.sql","0039_fat_magneto.sql","0040_eager_shotgun.sql","0041_curly_maria_hill.sql","0042_spotty_the_renegades.sql","0043_reflective_captain_universe.sql","0044_illegal_toad.sql","0045_workable_shockwave.sql"]}[39m
+2026-03-28 20:52:42 -03:00: [23:52:41] [32mINFO[39m: [36mApplying 11 pending migrations for PostgreSQL[39m [90m{"pendingMigrations":["0035_marvelous_satana.sql","0036_cheerful_nitro.sql","0037_friendly_eddie_brock.sql","0038_careless_iron_monger.sql","0039_fat_magneto.sql","0040_eager_shotgun.sql","0041_curly_maria_hill.sql","0042_spotty_the_renegades.sql","0043_reflective_captain_universe.sql","0044_illegal_toad.sql","0045_workable_shockwave.sql"]}[39m
+2026-03-28 20:53:05 -03:00: [23:53:05] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:53:05 -03:00:     err: {
+2026-03-28 20:53:05 -03:00:       "type": "PostgresError",
+2026-03-28 20:53:05 -03:00:       "message": "duplicate key value violates unique constraint \"pg_type_typname_nsp_index\"",
+2026-03-28 20:53:05 -03:00:       "stack":
+2026-03-28 20:53:05 -03:00:           PostgresError: duplicate key value violates unique constraint "pg_type_typname_nsp_index"
+2026-03-28 20:53:05 -03:00:               at ErrorResponse (file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/node_modules/.pnpm/postgres@3.4.8/node_modules/postgres/src/connection.js:815:30)
+2026-03-28 20:53:05 -03:00:               at handle (file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/node_modules/.pnpm/postgres@3.4.8/node_modules/postgres/src/connection.js:489:6)
+2026-03-28 20:53:05 -03:00:               at TLSSocket.data (file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/node_modules/.pnpm/postgres@3.4.8/node_modules/postgres/src/connection.js:324:9)
+2026-03-28 20:53:05 -03:00:               at TLSSocket.emit (node:events:508:20)
+2026-03-28 20:53:05 -03:00:               at addChunk (node:internal/streams/readable:564:12)
+2026-03-28 20:53:05 -03:00:               at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+2026-03-28 20:53:05 -03:00:               at Readable.push (node:internal/streams/readable:395:5)
+2026-03-28 20:53:05 -03:00:               at TLSWrap.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-03-28 20:53:05 -03:00:       "name": "PostgresError",
+2026-03-28 20:53:05 -03:00:       "severity_local": "ERROR",
+2026-03-28 20:53:05 -03:00:       "severity": "ERROR",
+2026-03-28 20:53:05 -03:00:       "code": "23505",
+2026-03-28 20:53:05 -03:00:       "detail": "Key (typname, typnamespace)=(execution_workspaces, 2200) already exists.",
+2026-03-28 20:53:05 -03:00:       "schema_name": "pg_catalog",
+2026-03-28 20:53:05 -03:00:       "table_name": "pg_type",
+2026-03-28 20:53:05 -03:00:       "constraint_name": "pg_type_typname_nsp_index",
+2026-03-28 20:53:05 -03:00:       "file": "nbtinsert.c",
+2026-03-28 20:53:05 -03:00:       "line": "667",
+2026-03-28 20:53:05 -03:00:       "routine": "_bt_check_unique"
+2026-03-28 20:53:05 -03:00:     }
+2026-03-28 20:53:17 -03:00: [23:53:17] [32mINFO[39m: [36mApplying 8 pending migrations for PostgreSQL[39m [90m{"pendingMigrations":["0038_careless_iron_monger.sql","0039_fat_magneto.sql","0040_eager_shotgun.sql","0041_curly_maria_hill.sql","0042_spotty_the_renegades.sql","0043_reflective_captain_universe.sql","0044_illegal_toad.sql","0045_workable_shockwave.sql"]}[39m
+2026-03-28 20:53:38 -03:00: [23:53:37] [32mINFO[39m: [36mApplying 1 pending migrations for PostgreSQL[39m [90m{"pendingMigrations":["0045_workable_shockwave.sql"]}[39m
+2026-03-28 20:53:59 -03:00: [23:53:59] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:53:59 -03:00: [23:53:59] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:53:59 -03:00:     err: {
+2026-03-28 20:53:59 -03:00:       "type": "Error",
+2026-03-28 20:53:59 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:53:59 -03:00:       "stack":
+2026-03-28 20:53:59 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:53:59 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:53:59 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:53:59 -03:00:     }
+2026-03-28 20:54:07 -03:00: [23:54:06] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:54:07 -03:00: [23:54:06] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:54:07 -03:00:     err: {
+2026-03-28 20:54:07 -03:00:       "type": "Error",
+2026-03-28 20:54:07 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:54:07 -03:00:       "stack":
+2026-03-28 20:54:07 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:54:07 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:54:07 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:54:07 -03:00:     }
+2026-03-28 20:54:11 -03:00: [23:54:11] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:54:11 -03:00: [23:54:11] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:54:11 -03:00:     err: {
+2026-03-28 20:54:11 -03:00:       "type": "Error",
+2026-03-28 20:54:11 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:54:11 -03:00:       "stack":
+2026-03-28 20:54:11 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:54:11 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:54:11 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:54:11 -03:00:     }
+2026-03-28 20:54:15 -03:00: [23:54:15] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:54:15 -03:00: [23:54:15] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:54:15 -03:00:     err: {
+2026-03-28 20:54:15 -03:00:       "type": "Error",
+2026-03-28 20:54:15 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:54:15 -03:00:       "stack":
+2026-03-28 20:54:15 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:54:15 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:54:15 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:54:15 -03:00:     }
+2026-03-28 20:54:19 -03:00: [23:54:19] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:54:19 -03:00: [23:54:19] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:54:19 -03:00:     err: {
+2026-03-28 20:54:19 -03:00:       "type": "Error",
+2026-03-28 20:54:19 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:54:19 -03:00:       "stack":
+2026-03-28 20:54:19 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:54:19 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:54:19 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:54:19 -03:00:     }
+2026-03-28 20:54:24 -03:00: [23:54:23] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:54:24 -03:00: [23:54:23] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:54:24 -03:00:     err: {
+2026-03-28 20:54:24 -03:00:       "type": "Error",
+2026-03-28 20:54:24 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:54:24 -03:00:       "stack":
+2026-03-28 20:54:24 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:54:24 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:54:24 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:54:24 -03:00:     }
+2026-03-28 20:54:29 -03:00: [23:54:28] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:54:29 -03:00: [23:54:28] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:54:29 -03:00:     err: {
+2026-03-28 20:54:29 -03:00:       "type": "Error",
+2026-03-28 20:54:29 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:54:29 -03:00:       "stack":
+2026-03-28 20:54:29 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:54:29 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:54:29 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:54:29 -03:00:     }
+2026-03-28 20:54:38 -03:00: [23:54:37] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:54:38 -03:00: [23:54:37] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:54:38 -03:00:     err: {
+2026-03-28 20:54:38 -03:00:       "type": "Error",
+2026-03-28 20:54:38 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:54:38 -03:00:       "stack":
+2026-03-28 20:54:38 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:54:38 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:54:38 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:54:38 -03:00:     }
+2026-03-28 20:54:43 -03:00: [23:54:43] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:54:43 -03:00: [23:54:43] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:54:43 -03:00:     err: {
+2026-03-28 20:54:43 -03:00:       "type": "Error",
+2026-03-28 20:54:43 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:54:43 -03:00:       "stack":
+2026-03-28 20:54:43 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:54:43 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:54:43 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:54:43 -03:00:     }
+2026-03-28 20:54:48 -03:00: [23:54:48] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:54:48 -03:00: [23:54:48] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:54:48 -03:00:     err: {
+2026-03-28 20:54:48 -03:00:       "type": "Error",
+2026-03-28 20:54:48 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:54:48 -03:00:       "stack":
+2026-03-28 20:54:48 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:54:48 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:54:48 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:54:48 -03:00:     }
+2026-03-28 20:54:53 -03:00: [23:54:52] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:54:53 -03:00: [23:54:52] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:54:53 -03:00:     err: {
+2026-03-28 20:54:53 -03:00:       "type": "Error",
+2026-03-28 20:54:53 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:54:53 -03:00:       "stack":
+2026-03-28 20:54:53 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:54:53 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:54:53 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:54:53 -03:00:     }
+2026-03-28 20:54:58 -03:00: [23:54:57] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:54:58 -03:00: [23:54:57] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:54:58 -03:00:     err: {
+2026-03-28 20:54:58 -03:00:       "type": "Error",
+2026-03-28 20:54:58 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:54:58 -03:00:       "stack":
+2026-03-28 20:54:58 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:54:58 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:54:58 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:54:58 -03:00:     }
+2026-03-28 20:55:03 -03:00: [23:55:02] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:55:03 -03:00: [23:55:02] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:55:03 -03:00:     err: {
+2026-03-28 20:55:03 -03:00:       "type": "Error",
+2026-03-28 20:55:03 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:55:03 -03:00:       "stack":
+2026-03-28 20:55:03 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:55:03 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:55:03 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:55:03 -03:00:     }
+2026-03-28 20:55:08 -03:00: [23:55:07] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:55:08 -03:00: [23:55:07] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:55:08 -03:00:     err: {
+2026-03-28 20:55:08 -03:00:       "type": "Error",
+2026-03-28 20:55:08 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:55:08 -03:00:       "stack":
+2026-03-28 20:55:08 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:55:08 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:55:08 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:55:08 -03:00:     }
+2026-03-28 20:55:12 -03:00: [23:55:12] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:55:12 -03:00: [23:55:12] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:55:12 -03:00:     err: {
+2026-03-28 20:55:12 -03:00:       "type": "Error",
+2026-03-28 20:55:12 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:55:12 -03:00:       "stack":
+2026-03-28 20:55:12 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:55:12 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:55:12 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:55:12 -03:00:     }
+2026-03-28 20:55:18 -03:00: [23:55:17] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:55:18 -03:00: [23:55:17] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:55:18 -03:00:     err: {
+2026-03-28 20:55:18 -03:00:       "type": "Error",
+2026-03-28 20:55:18 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:55:18 -03:00:       "stack":
+2026-03-28 20:55:18 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:55:18 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:55:18 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:55:18 -03:00:     }
+2026-03-28 20:55:23 -03:00: [23:55:22] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:55:23 -03:00: [23:55:22] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:55:23 -03:00:     err: {
+2026-03-28 20:55:23 -03:00:       "type": "Error",
+2026-03-28 20:55:23 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:55:23 -03:00:       "stack":
+2026-03-28 20:55:23 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:55:23 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:55:23 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:55:23 -03:00:     }
+2026-03-28 20:55:28 -03:00: [23:55:27] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:55:28 -03:00: [23:55:27] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:55:28 -03:00:     err: {
+2026-03-28 20:55:28 -03:00:       "type": "Error",
+2026-03-28 20:55:28 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:55:28 -03:00:       "stack":
+2026-03-28 20:55:28 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:55:28 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:55:28 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:55:28 -03:00:     }
+2026-03-28 20:55:33 -03:00: [23:55:32] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:55:33 -03:00: [23:55:32] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:55:33 -03:00:     err: {
+2026-03-28 20:55:33 -03:00:       "type": "Error",
+2026-03-28 20:55:33 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:55:33 -03:00:       "stack":
+2026-03-28 20:55:33 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:55:33 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:55:33 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:55:33 -03:00:     }
+2026-03-28 20:55:38 -03:00: [23:55:37] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:55:38 -03:00: [23:55:37] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:55:38 -03:00:     err: {
+2026-03-28 20:55:38 -03:00:       "type": "Error",
+2026-03-28 20:55:38 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:55:38 -03:00:       "stack":
+2026-03-28 20:55:38 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:55:38 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:55:38 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:55:38 -03:00:     }
+2026-03-28 20:56:45 -03:00: [23:56:44] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:56:45 -03:00: [23:56:44] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:56:45 -03:00:     err: {
+2026-03-28 20:56:45 -03:00:       "type": "Error",
+2026-03-28 20:56:45 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:56:45 -03:00:       "stack":
+2026-03-28 20:56:45 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:56:45 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:56:45 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:56:45 -03:00:     }
+2026-03-28 20:56:49 -03:00: [23:56:49] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:56:49 -03:00: [23:56:49] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:56:49 -03:00:     err: {
+2026-03-28 20:56:49 -03:00:       "type": "Error",
+2026-03-28 20:56:49 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:56:49 -03:00:       "stack":
+2026-03-28 20:56:49 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:56:49 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:56:49 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:56:49 -03:00:     }
+2026-03-28 20:56:53 -03:00: [23:56:52] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:56:53 -03:00: [23:56:52] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:56:53 -03:00:     err: {
+2026-03-28 20:56:53 -03:00:       "type": "Error",
+2026-03-28 20:56:53 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:56:53 -03:00:       "stack":
+2026-03-28 20:56:53 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:56:53 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:56:53 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:56:53 -03:00:     }
+2026-03-28 20:57:04 -03:00: [23:57:03] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:57:04 -03:00: [23:57:03] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:57:04 -03:00:     err: {
+2026-03-28 20:57:04 -03:00:       "type": "Error",
+2026-03-28 20:57:04 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:57:04 -03:00:       "stack":
+2026-03-28 20:57:04 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:57:04 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:57:04 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:57:04 -03:00:     }
+2026-03-28 20:57:09 -03:00: [23:57:08] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:57:09 -03:00: [23:57:08] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:57:09 -03:00:     err: {
+2026-03-28 20:57:09 -03:00:       "type": "Error",
+2026-03-28 20:57:09 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:57:09 -03:00:       "stack":
+2026-03-28 20:57:09 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:57:09 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:57:09 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:57:09 -03:00:     }
+2026-03-28 20:57:14 -03:00: [23:57:13] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:57:14 -03:00: [23:57:13] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:57:14 -03:00:     err: {
+2026-03-28 20:57:14 -03:00:       "type": "Error",
+2026-03-28 20:57:14 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:57:14 -03:00:       "stack":
+2026-03-28 20:57:14 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:57:14 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:57:14 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:57:14 -03:00:     }
+2026-03-28 20:57:18 -03:00: [23:57:18] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:57:18 -03:00: [23:57:18] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:57:18 -03:00:     err: {
+2026-03-28 20:57:18 -03:00:       "type": "Error",
+2026-03-28 20:57:18 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:57:18 -03:00:       "stack":
+2026-03-28 20:57:18 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:57:18 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:57:18 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:57:18 -03:00:     }
+2026-03-28 20:57:22 -03:00: [23:57:22] [32mINFO[39m: [36mUsing external PostgreSQL via DATABASE_URL/config[39m
+2026-03-28 20:57:22 -03:00: [23:57:22] [31mERROR[39m: [36mPaperclip server failed to start[39m 
+2026-03-28 20:57:22 -03:00:     err: {
+2026-03-28 20:57:22 -03:00:       "type": "Error",
+2026-03-28 20:57:22 -03:00:       "message": "local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.",
+2026-03-28 20:57:22 -03:00:       "stack":
+2026-03-28 20:57:22 -03:00:           Error: local_trusted mode requires loopback host binding (received: 0.0.0.0). Use authenticated mode for non-loopback deployments.
+2026-03-28 20:57:22 -03:00:               at startServer (/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/index.ts:427:11)
+2026-03-28 20:57:22 -03:00:               at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-03-28 20:57:22 -03:00:     }

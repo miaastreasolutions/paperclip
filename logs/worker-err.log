@@ -54,3 +54,47 @@
 2026-03-28 04:59:49 -03:00:   code: 'ERR_MODULE_NOT_FOUND',
 2026-03-28 04:59:49 -03:00:   url: 'file:///Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/packages/adapter-utils/src/session-compaction.js'
 2026-03-28 04:59:49 -03:00: }
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/node_modules/.bin/tsx:2
+basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
+          ^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1762:18)
+    at Module._compile (node:internal/modules/cjs/loader:1805:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1971:10)
+    at Module.load (node:internal/modules/cjs/loader:1552:32)
+    at Module._load (node:internal/modules/cjs/loader:1354:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:325:3)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:230:7)
+    at ModuleJob.run (node:internal/modules/esm/module_job:430:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/node_modules/.bin/tsx:2
+basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')")
+          ^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1762:18)
+    at Module._compile (node:internal/modules/cjs/loader:1805:20)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1971:10)
+    at Module.load (node:internal/modules/cjs/loader:1552:32)
+    at Module._load (node:internal/modules/cjs/loader:1354:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at loadCJSModuleWithModuleLoad (node:internal/modules/esm/translators:325:3)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:230:7)
+    at ModuleJob.run (node:internal/modules/esm/module_job:430:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/config.js' imported from /Users/mia/.openclaw/workspace/05-PROJETOS/paperclip/server/src/worker.ts
+    at finalizeResolution (node:internal/modules/esm/resolve:271:11)
+    at moduleResolve (node:internal/modules/esm/resolve:861:10)
+    at defaultResolve (node:internal/modules/esm/resolve:988:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:697:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:714:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:746:52)
+    at #resolve (node:internal/modules/esm/loader:679:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:599:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:160:33)
+    at ModuleJob.link (node:internal/modules/esm/module_job:245:17)
