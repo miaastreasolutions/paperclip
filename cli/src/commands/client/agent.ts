@@ -215,6 +215,81 @@ export function registerAgentCommands(program: Command): void {
       }),
   );
 
+interface AgentCreateOptions extends BaseClientOptions {
+  companyId?: string;
+  name?: string;
+  adapter?: string;
+  role?: string;
+  model?: string;
+  instructions?: string;
+  avatarUrl?: string;
+  budget?: string;
+}
+
+interface CreatedAgent {
+  id: string;
+  companyId: string;
+  name: string;
+  role: string;
+  adapterType: string;
+  model?: string;
+  status: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+  addCommonClientOptions(
+    agent
+      .command("create")
+      .description("Create a new agent for a company")
+      .requiredOption("-C, --company-id <id>", "Company ID")
+      .requiredOption("-n, --name <name>", "Agent name")
+      .requiredOption("-a, --adapter <type>", "Adapter type (e.g., claude_local, codex_local, openclaw_gateway)")
+      .option("-r, --role <role>", "Agent role (ceo, cto, engineer, designer, researcher, general)", "general")
+      .option("-m, --model <model>", "Model identifier (optional)")
+      .option("-i, --instructions <text>", "System instructions (optional)")
+      .option("--avatar-url <url>", "Avatar URL (optional)")
+      .option("--budget <cents>", "Monthly budget in cents (optional)")
+      .action(async (opts: AgentCreateOptions) => {
+        try {
+          const ctx = resolveCommandContext(opts, { requireCompany: true });
+
+          const body: Record<string, unknown> = {
+            name: opts.name,
+            adapterType: opts.adapter,
+          };
+
+          if (opts.role) body.role = opts.role;
+          if (opts.model) body.model = opts.model;
+          if (opts.instructions) body.instructions = opts.instructions;
+          if (opts.avatarUrl) body.avatarUrl = opts.avatarUrl;
+          if (opts.budget) body.budgetMonthlyCents = parseInt(opts.budget, 10);
+
+          const created = await ctx.api.post<CreatedAgent>(
+            `/api/companies/${ctx.companyId}/agents`,
+            body,
+          );
+
+          if (ctx.json) {
+            printOutput(created, { json: true });
+            return;
+          }
+
+          console.log("✅ Agent created successfully!");
+          console.log("");
+          console.log(`ID:     ${created.id}`);
+          console.log(`Name:   ${created.name}`);
+          console.log(`Role:   ${created.role}`);
+          console.log(`Adapter: ${created.adapterType}`);
+          console.log(`Status: ${created.status}`);
+          console.log(`Created: ${created.createdAt}`);
+        } catch (err) {
+          handleCommandError(err);
+        }
+      }),
+    { includeCompany: false },
+  );
+
   addCommonClientOptions(
     agent
       .command("local-cli")
